@@ -1,0 +1,64 @@
+.datatable-container {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #0c0c0c; 
+}
+
+h2 {
+  text-align: center;
+  color: #4682B4;
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: middle;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #141d14; 
+  color: rgb(238, 233, 233);
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
+.pagination button:disabled {
+  background-color: #e1a169; 
+  cursor: not-allowed;
+}
+
+.search-input {
+  width: 300px;
+  padding: 12px;
+  margin-bottom: 20px;
+  margin-right: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  float: right;
+}
